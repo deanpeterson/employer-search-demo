@@ -16,7 +16,7 @@ angular.module("directives.employerSearchTokenizerDirective", []).directive(
 //					tokenInput.id = "tokenfield";
 //					tokenInput.value = "test";
 					var myHelloElement = document.createElement("div");
-					myHelloElement.innerHTML = "Hello Everyone.  I should be a cool employer search directive.  Instead, I'm just this disappointing text";
+					myHelloElement.innerHTML = "<b style='font-size:50px'>Hello Everyone.  I should be a cool employer search directive.  Instead, I'm just this disappointing text</b>";
 					element.replaceWith(myHelloElement);
 
 //					var prePopulate = eval("scope."+attrs.propertyName); 
